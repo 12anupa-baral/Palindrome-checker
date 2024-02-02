@@ -1,0 +1,37 @@
+body {
+    background-color: #1F2544;
+}
+
+button {
+    background-color: #6C22A6;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 200px;
+
+}
+
+input {
+    margin-top: 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-left: 32px;
+
+}
+
+label {
+    margin-left: 25px;
+}
+
+#result {
+    color: white;
+    margin-left: 750px;
+
+}
