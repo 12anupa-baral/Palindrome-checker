@@ -2,36 +2,63 @@ body {
     background-color: #1F2544;
 }
 
-button {
-    background-color: #6C22A6;
-    border-radius: 5px;
-}
 
 .container {
+    margin-top: 150px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+button {
+    background-color: #8045ad;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #411165;
+    cursor: pointer;
+}
+
+.check {
     border: 1px solid black;
     padding: 50px;
     background-color: white;
     border-radius: 10px;
-    width: 300px;
-    margin-left: 600px;
-    margin-top: 200px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 50px;
 
 }
 
 input {
     margin-top: 30px;
-    border: 0;
+    border: 0px;
     border-bottom: 1px solid black;
-    margin-left: 32px;
+    margin-left: 120px;
+    padding: 10px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
 
 }
 
 label {
-    margin-left: 25px;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 #result {
     color: white;
-    margin-left: 750px;
+    margin-left: 600px;
+    font-size: 30px;
+    margin-top: 10px;
 
 }
